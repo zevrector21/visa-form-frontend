@@ -181,7 +181,6 @@ class AdminPageCaETA extends Component {
         openNotificationWithIcon('success', 'Success', `Successed to ${result.data.archived? 'archive': 'retrieve'} an application.`)
         this.loadList(this.props.pagination)
       }
-      console.log('deleted');
       this.setState({
         visibleDeleteApplicationModal: false,
       })
